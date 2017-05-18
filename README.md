@@ -1,4 +1,13 @@
 # Angular NPM Module Seed
+
+Fork of https://github.com/davguij/angular-npm-module-seed
+
+Updated to Angular 4, 
+Adjustment to tsconfig.json to allow external library imports,
+All dependancies are now Dev dependancies (create Peer dependancies manually)
+
+Next step - include Jasmine & Karma unit tests
+
 ## What's this?
 This project intends to give an easy-to-use starter for developing and publishing an Angular NPM module, so that it then be installed through the regular `npm install` command by other users.
 

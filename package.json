@@ -1,7 +1,7 @@
 {
   "name": "angular-npm-module-seed",
   "version": "1.0.0",
-  "description": "Starting point for developing Angular modules and publishing them on NPM",
+  "description": "Updated with no assumed Dependencies, and minor Starting point for developing Angular modules and publishing them on NPM",
   "keywords": [
     "angular 2"
   ],
@@ -15,28 +15,34 @@
     "build": "npm run clean && npm run transpile && npm run package && npm run minify && npm run copy"
   },
   "license": "MIT",
-  "homepage": "https://github.com/davguij/angular-npm-module-seed",
+  "homepage": "https://github.com/edwardpayton/angular-npm-module-seed",
   "bugs": {
-    "url": "https://github.com/davguij/angular-npm-module-seed/issues"
+    "url": "https://github.com/edwardpayton/angular-npm-module-seed/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/davguij/angular-npm-module-seed.git"
+    "url": "https://github.com/edwardpayton/angular-npm-module-seed.git"
   },
   "devDependencies": {
-    "@angular/compiler": "^2.4.4",
-    "@angular/compiler-cli": "^2.4.4",
+    "@angular/common": "^4.1.3",
+    "@angular/compiler": "^4.1.3",
+    "@angular/core": "^4.1.3",
+    "@angular/platform-browser": "^4.1.3",
+    "@angular/platform-browser-dynamic": "^4.1.3",
+    "@types/node": "^7.0.18",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.1.3",
+    "core-js": "^2.4.1",
     "cpx": "^1.5.0",
+    "node-static": "^0.7.9",
+    "raw-loader": "^0.5.1",
     "renamer": "^0.6.1",
     "rimraf": "^2.5.4",
     "rollup": "^0.41.4",
-    "typescript": "~2.0.0",
-    "uglify-js": "^2.7.5"
+    "rxjs": "^5.4.0",
+    "typescript": "^2.3.2",
+    "uglify-js": "^2.7.5",
+    "zone.js": "^0.8.10"
   },
-  "dependencies": {
-    "@angular/common": "^2.4.4",
-    "@angular/core": "^2.4.4",
-    "rxjs": "^5.0.3",
-    "zone.js": "^0.7.6"
-  }
+  "dependencies": {}
 }
